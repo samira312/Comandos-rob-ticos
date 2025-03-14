@@ -1,5 +1,4 @@
-# Comandos-rob-ticos
-# Titulo Grande (H1)
+# Comandos-rob-ticos(H1)
 ### Seção menor (H3)
 if (!isReplaying) { // Permite gravação e controle manual quando não está reproduzindo
     val1 = analogRead(potpin1);
