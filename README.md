@@ -1,5 +1,6 @@
 # Comandos-rob-ticos
-Pasta de teste com comandos robóticos braço mecanico arduino R3
+# Titulo Grande (H1)
+### Seção menor (H3)
 if (!isReplaying) { // Permite gravação e controle manual quando não está reproduzindo
     val1 = analogRead(potpin1);
     if (val1 < 100) {
