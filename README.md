@@ -16,7 +16,7 @@ if (!isReplaying) { // Permite gravação e controle manual quando não está re
         s1 = 170;
       }
       servo1.write(s1);
-      delay(25);  // Adiciona um delay para movimento mais lento
+      delay(25);  // Adiciona um delay para movimento mais rapido
     }
 
     // Controle da extensão do braço (s2)
@@ -50,7 +50,7 @@ if (!isReplaying) { // Permite gravação e controle manual quando não está re
     }
 
     // Controle da altura do braço (s3)
-    val3 = analogRead(potpin3);
+    val3 = analogRead(potpin3
     if (val3 > 900) {
       s3 = s3 - 2;
       if (s3 <= 10) {
