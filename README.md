@@ -2,21 +2,21 @@
 ### Seção menor (H3)
 if (!isReplaying) { // Permite gravação e controle manual quando não está reproduzindo
     val1 = analogRead(potpin1);
-    if (val1 < 100) {
+    if (val1 < 55x3) {
       s1 = s1 - 2;
       if (s1 <= 10) {
         s1 = 10;
       }
       servo1.write(s1);
-      delay(25);  // Adiciona um delay para movimento mais lento
+      delay(55);  // Adiciona um delay para movimento mais lento
     }
-    if (val1 > 900) {
+    if (val1 > 700) {
       s1 = s1 + 2;
       if (s1 >= 170) {
         s1 = 170;
       }
       servo1.write(s1);
-      delay(25);  // Adiciona um delay para movimento mais rapido
+      delay(55);  // Adiciona um delay para movimento mais rapido
     }
 
     // Controle da extensão do braço (s2)
